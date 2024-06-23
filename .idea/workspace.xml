@@ -4,17 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e5dc4fa-2098-4e2c-a656-1723c967a82a" name="Changes" comment="Initial commit.">
-      <change afterPath="$PROJECT_DIR$/educational_institution.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graduation_batch.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graduation_batch.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/regions_list.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/regions_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/student.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/student.py" afterDir="false" />
+    <list default="true" id="4e5dc4fa-2098-4e2c-a656-1723c967a82a" name="Changes" comment="Add basic modules.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/educational_institution.py" beforeDir="false" afterPath="$PROJECT_DIR$/educational_institution.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graduation_batch.json" beforeDir="false" afterPath="$PROJECT_DIR$/graduation_batch.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graduation_batch.py" beforeDir="false" afterPath="$PROJECT_DIR$/graduation_batch.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/regions_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/regions_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student.json" beforeDir="false" afterPath="$PROJECT_DIR$/student.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student.py" beforeDir="false" afterPath="$PROJECT_DIR$/student.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +110,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719082611949</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add basic modules.">
+      <option name="closed" value="true" />
+      <created>1719120477190</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1719120477190</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -128,6 +134,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit." />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit." />
+    <MESSAGE value="Add basic modules." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add basic modules." />
   </component>
 </project>

@@ -4,20 +4,35 @@ from typing import Dict
 
 
 class RegionsList:
+
     __regions: Dict[str, str]
+
+    @property
+    def regions(self) -> Dict[str, str]:
+        """Regions: getter."""
+        return self.__regions
+
+    @regions.setter
+    def regions(self, value: Dict[str, str]) -> None:
+        """Regions: setter."""
+        self.__regions = value
 
     def __init__(self) -> None:
         """Initialisation."""
-        self.__regions = dict()
+        self.regions = dict()
 
     def __repr__(self) -> str:
         """Representation."""
-        return f'{self.__regions}'
+        return f'{self.regions}'
+
+    def load_from_parsed_json(self, parsed_json: Dict[str, str]):
+        """Load data from JSON parsed to a dictionary."""
+        self.regions = parsed_json
 
     def load_from_json_file(self, file_name):
         """Load data from JSON file."""
         from json import load, decoder
-        self.__regions = dict()
+        self.__init__()
         try:
             with open(file_name) as f:
                 data = load(f)
@@ -25,4 +40,4 @@ class RegionsList:
             raise exception
         except decoder.JSONDecodeError:
             raise Exception('Wrong data file format.')
-        self.__regions = data
+        self.load_from_parsed_json(data)

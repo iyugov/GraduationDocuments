@@ -11,12 +11,18 @@
     "1": {
       "last_name": "Фролов",
       "first_name": "Сергей",
-      "patronymic": "Алексеевич"
+      "patronymic": "Алексеевич",
+      "gender": "М",
+      "birth_date": "20.09.1933",
+      "social_insurance_number": "138-284-534 81"
     },
     "2": {
       "last_name": "Бойцов",
       "first_name": "Алексей",
-      "patronymic": "Михайлович"
+      "patronymic": "Михайлович",
+      "gender": "М",
+      "birth_date": "30.03.1922",
+      "social_insurance_number": "138-284-534 81"
     }
   }
 }
