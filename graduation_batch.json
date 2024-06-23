@@ -1,14 +1,16 @@
 {
+  "graduation_year": 2024,
   "educational_institution_separated_name": [
     "Муниципальное общеобразовательное",
     "учреждение",
     "Тверская гимназия №10",
     "город Тверь"
   ],
+  "document_issue_date": "01.07.2024",
   "educational_institution_signatory_officer_name": "Старовойтова О. Н.",
   "educational_institution_signatory_officer_position": "И. о. директора",
-  "students": {
-    "1": {
+  "students": [
+    {
       "last_name": "Фролов",
       "first_name": "Сергей",
       "patronymic": "Алексеевич",
@@ -16,7 +18,7 @@
       "birth_date": "20.09.1933",
       "social_insurance_number": "138-284-534 81"
     },
-    "2": {
+    {
       "last_name": "Бойцов",
       "first_name": "Алексей",
       "patronymic": "Михайлович",
@@ -24,5 +26,5 @@
       "birth_date": "30.03.1922",
       "social_insurance_number": "138-284-534 81"
     }
-  }
+  ]
 }

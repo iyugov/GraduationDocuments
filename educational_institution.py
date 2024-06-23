@@ -7,6 +7,7 @@ class EducationalInstitution:
     """Educational institution."""
 
     __short_name: str
+    """Short name."""
 
     @property
     def short_name(self) -> str:
@@ -19,6 +20,7 @@ class EducationalInstitution:
         self.__short_name = value
 
     __full_name: str
+    """Full name."""
 
     @property
     def full_name(self) -> str:
@@ -31,6 +33,7 @@ class EducationalInstitution:
         self.__full_name = value
 
     __director_name: str
+    """Director's name."""
 
     @property
     def director_name(self) -> str:
@@ -43,6 +46,7 @@ class EducationalInstitution:
         self.__director_name = value
 
     __region_code: str
+    """Code of the region where the educational institution is located."""
 
     @property
     def region_code(self) -> str:

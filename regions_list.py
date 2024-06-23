@@ -4,8 +4,10 @@ from typing import Dict
 
 
 class RegionsList:
+    """List of available regions."""
 
     __regions: Dict[str, str]
+    """List of regions."""
 
     @property
     def regions(self) -> Dict[str, str]:

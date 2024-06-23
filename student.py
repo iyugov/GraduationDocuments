@@ -13,7 +13,10 @@ class Gender(Enum):
 
 
 class Student:
+    """Student."""
+
     __last_name: str
+    """Last name."""
 
     @property
     def last_name(self) -> str:
@@ -26,6 +29,7 @@ class Student:
         self.__last_name = value
 
     __first_name: str
+    """First name."""
 
     @property
     def first_name(self) -> str:
@@ -38,6 +42,7 @@ class Student:
         self.__first_name = value
 
     __patronymic: str
+    """Patronymic."""
 
     @property
     def patronymic(self) -> str:
@@ -50,6 +55,7 @@ class Student:
         self.__patronymic = value
 
     __birth_date: date
+    """Birthdate."""
 
     @property
     def birth_date(self) -> str:
@@ -62,6 +68,7 @@ class Student:
         self.__birth_date = datetime.strptime(value, '%d.%m.%Y')
 
     __gender: Gender | None
+    """Gender."""
 
     @property
     def gender(self) -> Gender | None:
@@ -73,7 +80,8 @@ class Student:
         """Gender: setter."""
         self.__gender = value
 
-    __social_insurance_number: str
+    __social_insurance_number: str | None
+    """Social insurance number, a unique identifier."""
 
     @property
     def social_insurance_number(self) -> str:

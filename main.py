@@ -2,6 +2,7 @@ from graduation_batch import StudentsGraduationBatch
 from educational_institution import EducationalInstitution
 from regions_list import RegionsList
 from student import Student
+from personal_document_template import PersonalDocumentTemplate
 
 batch = StudentsGraduationBatch()
 batch.load_from_json_file('graduation_batch.json')
@@ -21,3 +22,7 @@ print(person)
 
 number = '138-284-534 81'
 print(number, Student.social_insurance_number_is_correct(number))
+
+template = PersonalDocumentTemplate()
+template.load_from_json_file('personal_document_template.json')
+print(template)
