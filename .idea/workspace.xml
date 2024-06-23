@@ -4,15 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e5dc4fa-2098-4e2c-a656-1723c967a82a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Graduation Documents.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/educational_institution.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    <list default="true" id="4e5dc4fa-2098-4e2c-a656-1723c967a82a" name="Changes" comment="Initial commit.">
+      <change afterPath="$PROJECT_DIR$/educational_institution.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graduation_batch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graduation_batch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/regions_list.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/regions_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/student.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/student.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/educational_institution.py" beforeDir="false" afterPath="$PROJECT_DIR$/educational_institution.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,9 +31,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2iFMyJvAyn9Or5IX6WPTIKvjzxw" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -43,9 +48,22 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/iyugov/Projects/Graduation Documents",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "proofread"
   }
 }]]></component>
+  <component name="QodanaReportsService">
+    <option name="descriptions">
+      <ReportDescription localRun="true" path="/tmp/qodana_output/qodana.sarif.json" reportGuid="5958c99d-ed27-468c-b46e-cde1ec8b8357" reportId="Graduation Documents/qodana/2024-06-22" />
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Graduation Documents" />
@@ -86,6 +104,30 @@
       <option name="presentableId" value="Default" />
       <updated>1719082124830</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial commit.">
+      <option name="closed" value="true" />
+      <created>1719082611949</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1719082611949</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit." />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit." />
   </component>
 </project>

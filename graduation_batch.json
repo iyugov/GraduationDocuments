@@ -1,0 +1,22 @@
+{
+  "educational_institution_separated_name": [
+    "Муниципальное общеобразовательное",
+    "учреждение",
+    "Тверская гимназия №10",
+    "город Тверь"
+  ],
+  "educational_institution_signatory_officer_name": "Старовойтова О. Н.",
+  "educational_institution_signatory_officer_position": "И. о. директора",
+  "students": {
+    "1": {
+      "last_name": "Фролов",
+      "first_name": "Сергей",
+      "patronymic": "Алексеевич"
+    },
+    "2": {
+      "last_name": "Бойцов",
+      "first_name": "Алексей",
+      "patronymic": "Михайлович"
+    }
+  }
+}
