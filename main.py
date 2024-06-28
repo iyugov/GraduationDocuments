@@ -1,28 +1,17 @@
 from graduation_batch import StudentsGraduationBatch
 from educational_institution import EducationalInstitution
-from regions_list import RegionsList
-from student import Student
 from personal_document_template import PersonalDocumentTemplate
+from document_generator import DocumentGenerator
 
-batch = StudentsGraduationBatch()
-batch.load_from_json_file('graduation_batch.json')
-print(batch)
+generator = DocumentGenerator()
 
-school = EducationalInstitution()
-school.load_from_json_file('educational_institution.json')
-print(school)
+generator.educational_institution = EducationalInstitution()
+generator.educational_institution.load_from_json_file('educational_institution.json')
 
-regions = RegionsList()
-regions.load_from_json_file('regions_list.json')
-print(regions)
+generator.graduation_batch = StudentsGraduationBatch()
+generator.graduation_batch.load_from_json_file('graduation_batch.json')
 
-person = Student()
-person.load_from_json_file('student.json')
-print(person)
+generator.personal_document_template = PersonalDocumentTemplate()
+generator.personal_document_template.load_from_json_file('personal_document_template.json')
 
-number = '138-284-534 81'
-print(number, Student.social_insurance_number_is_correct(number))
-
-template = PersonalDocumentTemplate()
-template.load_from_json_file('personal_document_template.json')
-print(template)
+generator.generate_documents()

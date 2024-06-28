@@ -4,15 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e5dc4fa-2098-4e2c-a656-1723c967a82a" name="Changes" comment="Add regions list module, add properties, refactor parsing from JSON files.">
-      <change afterPath="$PROJECT_DIR$/personal_document_template.py" afterDir="false" />
+    <list default="true" id="4e5dc4fa-2098-4e2c-a656-1723c967a82a" name="Changes" comment="Refactor, add personal document template class.">
+      <change afterPath="$PROJECT_DIR$/document_generator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/educational_institution.py" beforeDir="false" afterPath="$PROJECT_DIR$/educational_institution.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/graduation_batch.json" beforeDir="false" afterPath="$PROJECT_DIR$/graduation_batch.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/graduation_batch.py" beforeDir="false" afterPath="$PROJECT_DIR$/graduation_batch.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/regions_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/regions_list.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student.py" beforeDir="false" afterPath="$PROJECT_DIR$/student.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal_document_template.json" beforeDir="false" afterPath="$PROJECT_DIR$/personal_document_template.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,17 +40,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Python.main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/iyugov/Projects/Graduation Documents",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "proofread"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/iyugov/Projects/Graduation Documents&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;proofread&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -87,7 +86,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-5b207ade9991-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.17890.14" />
+        <option value="bundled-python-sdk-975db3bf15a3-31b6be0877a2-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.18034.82" />
       </set>
     </attachedChunks>
   </component>
@@ -124,7 +123,23 @@
       <option name="project" value="LOCAL" />
       <updated>1719132581383</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Refactor, add personal document temoplate class.">
+      <option name="closed" value="true" />
+      <created>1719155400834</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1719155400834</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Refactor, add personal document template class.">
+      <option name="closed" value="true" />
+      <created>1719155411396</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1719155411396</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -142,6 +157,8 @@
     <MESSAGE value="Initial commit." />
     <MESSAGE value="Add basic modules." />
     <MESSAGE value="Add regions list module, add properties, refactor parsing from JSON files." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add regions list module, add properties, refactor parsing from JSON files." />
+    <MESSAGE value="Refactor, add personal document temoplate class." />
+    <MESSAGE value="Refactor, add personal document template class." />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor, add personal document template class." />
   </component>
 </project>

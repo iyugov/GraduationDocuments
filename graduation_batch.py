@@ -120,6 +120,10 @@ class StudentsGraduationBatch:
 
     def load_from_parsed_json(self, parsed_json: Dict[str, str | Dict | List[str]]):
         """Load data from JSON parsed to a dictionary."""
+        if 'graduation_year' in parsed_json:
+            self.graduation_year = parsed_json['graduation_year']
+        else:
+            raise Exception('Missing required section: graduation_year')
         if 'educational_institution_separated_name' in parsed_json:
             self.educational_institution_separated_name = parsed_json['educational_institution_separated_name']
         else:
@@ -138,9 +142,14 @@ class StudentsGraduationBatch:
             students_data = parsed_json['students']
         else:
             raise Exception('Missing required section: students')
+        social_insurance_numbers = set()
         for student_data in students_data:
             new_student = Student()
             new_student.load_from_parsed_json(student_data)
+            new_social_insurance_number = new_student.social_insurance_number
+            if new_social_insurance_number in social_insurance_numbers:
+                raise ValueError(f'Social insurance number {new_social_insurance_number} is not unique in the batch.')
+            social_insurance_numbers.add(new_social_insurance_number)
             self.students_list.append(new_student)
 
     def load_from_json_file(self, file_name: str):
